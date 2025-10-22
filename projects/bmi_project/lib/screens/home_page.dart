@@ -134,12 +134,13 @@ class _HomePageState extends State<HomePage> {
                                       },
                                       child: Icon(
                                         Icons.add,
-                                        size: 28,
+                                        size: 16,
                                         color: Colors.deepPurple,
                                       ),
                                     ),
-                                    SizedBox(width: 30),
+                                    SizedBox(width: 16),
                                     FloatingActionButton(
+
                                       shape: StarBorder(side: BorderSide.none),
                                       heroTag: 'valueNumber-',
                                       onPressed: () {
@@ -149,7 +150,7 @@ class _HomePageState extends State<HomePage> {
                                       },
                                       child: Icon(
                                         Icons.remove,
-                                        size: 26,
+                                        size: 16,
                                         color: Colors.deepPurple,
                                       ),
                                     ),
@@ -207,11 +208,11 @@ class _HomePageState extends State<HomePage> {
                                       },
                                       child: Icon(
                                         Icons.add,
-                                        size: 26,
+                                        size: 16,
                                         color: Colors.deepPurple,
                                       ),
                                     ),
-                                    SizedBox(width: 30),
+                                    SizedBox(width: 16),
                                     FloatingActionButton(
                                       shape: StarBorder(side: BorderSide.none),
                                       heroTag: 'valueNumberAge-',
@@ -222,7 +223,7 @@ class _HomePageState extends State<HomePage> {
                                       },
                                       child: Icon(
                                         Icons.remove,
-                                        size: 26,
+                                        size: 16,
                                         color: Colors.deepPurple,
                                       ),
                                     ),
